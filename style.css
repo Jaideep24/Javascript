@@ -1,0 +1,27 @@
+*{
+    overflow: hidden;
+}
+span{
+    transform: translateY(0px);
+    transition: all 0.2s ease;
+    display: inline-block;
+    
+    white-space: pre;
+}
+span.jump{
+    transform: translateY(-10px);
+    
+}
+canvas{
+    position: absolute;
+    background: transparent;
+    overflow:hidden ;
+}
+
+img{
+    
+    position: fixed;
+    width: 400px;
+    margin: 100px;
+    margin-left: 500px;
+}
